@@ -1,0 +1,158 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main styles */
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.web-name h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+section {
+  padding: 50px;
+}
+
+section h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+article h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+article p {
+  margin-bottom: 20px;
+}
+
+article a {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.latest-news ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.latest-news li {
+  margin-bottom: 50px;
+  flex-basis: calc(33.33% - 20px);
+}
+
+.latest-news li img {
+  width: 100%;
+}
+
+.latest-news li h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.latest-news li p {
+  margin-bottom: 20px;
+}
+
+.latest-news li a {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+}
+
+footer h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-links li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons li a {
+  color: #fff;
+}
+
+.contact-info li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.contact-info li i {
+  margin-right: 10px;
+}
