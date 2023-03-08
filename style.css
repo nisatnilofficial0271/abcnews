@@ -55,7 +55,67 @@ section h2 {
   font-size: 30px;
   margin-bottom: 30px;
 }
+.post-custom-view {
 
+	background-color: #FFFFFF;	border: 1px solid #CCCCCC;
+
+	padding: 10px;
+
+	margin: 10px;
+
+	box-shadow: 2px 2px 4px #CCCCCC;
+
+}
+
+.post-custom-view img {
+
+	float: left;
+
+	margin-right: 10px;
+
+}
+
+.post-custom-view h2 {
+
+	font-size: 24px;
+
+	margin-top: 0;
+
+}
+
+.post-custom-view p {
+
+	margin: 0;
+
+}
+
+.post-custom-view .post-date {
+
+	font-style: italic;
+
+}
+
+.post-custom-view .post-author {
+
+	font-weight: bold;
+
+}
+
+.post-custom-view .read-more-button {
+
+	background-color: #4CAF50;
+
+	color: #FFFFFF;
+
+	padding: 10px;
+
+	border: none;
+
+	border-radius: 5px;
+
+	cursor: pointer;
+
+}
 article {
   display: flex;
   flex-direction: column;
