@@ -1,7 +1,9 @@
 /* Styles for the header */
 
 header {
-  font-family: 'Tilt Prism', cursive;
+  font-family: 'Raleway', sans-serif;
+
+  
   background-color: #333;
   color: #fff;
   padding: 20px;
@@ -45,7 +47,7 @@ header nav a:hover {
 
  
 article {
-  font-family: 'Raleway', sans-serif;
+  
 
  
   max-width: 800px;
